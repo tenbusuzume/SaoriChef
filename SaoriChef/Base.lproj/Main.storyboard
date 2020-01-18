@@ -1,29 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
     </dependencies>
     <scenes>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Kakeibo" customModuleProvider="target" sceneMemberID="viewController">
                     <connections>
-                        <segue destination="rVB-TY-ZC9" kind="show" identifier="MainVC" id="SOJ-nL-2Ir"/>
+                        <segue destination="KEm-2W-N8D" kind="show" identifier="MainVC" id="tdG-aH-duZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="108"/>
+            <point key="canvasLocation" x="139" y="94"/>
         </scene>
         <!--Main View Controller-->
-        <scene sceneID="nMd-B5-02J">
+        <scene sceneID="jBH-hV-wyK">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="rVB-TY-ZC9" customClass="MainViewController" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="PyK-M5-6nX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController modalPresentationStyle="fullScreen" id="KEm-2W-N8D" customClass="MainViewController" customModule="Kakeibo" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="2DA-ed-jhF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MKt-Rn-xY1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1072" y="108"/>
+            <point key="canvasLocation" x="1177" y="94"/>
         </scene>
     </scenes>
 </document>

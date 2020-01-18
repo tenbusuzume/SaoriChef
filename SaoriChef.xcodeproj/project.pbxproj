@@ -3,229 +3,193 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2202C72423B660F9007EBDDB /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2202C72323B660F9007EBDDB /* MainView.m */; };
-		2202C72623B66131007EBDDB /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2202C72523B66131007EBDDB /* MainView.xib */; };
-		2202C72923B6645B007EBDDB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2202C72823B6645B007EBDDB /* MainViewController.m */; };
-		2202C73023B89C0C007EBDDB /* RecipeSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2202C72F23B89C0C007EBDDB /* RecipeSearchView.m */; };
-		2202C73223B89C33007EBDDB /* RecipeSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2202C73123B89C33007EBDDB /* RecipeSearchView.xib */; };
-		2202C73523B89CC7007EBDDB /* RecipeSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2202C73423B89CC7007EBDDB /* RecipeSearchViewController.m */; };
-		229D349323A67BC500740904 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 229D349223A67BC500740904 /* AppDelegate.m */; };
-		229D349623A67BC500740904 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 229D349523A67BC500740904 /* SceneDelegate.m */; };
-		229D349923A67BC500740904 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229D349823A67BC500740904 /* ViewController.m */; };
-		229D349C23A67BC500740904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229D349A23A67BC500740904 /* Main.storyboard */; };
-		229D349E23A67BCD00740904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229D349D23A67BCD00740904 /* Assets.xcassets */; };
-		229D34A123A67BCD00740904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229D349F23A67BCD00740904 /* LaunchScreen.storyboard */; };
-		229D34A423A67BCD00740904 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 229D34A323A67BCD00740904 /* main.m */; };
-		229D34B123A67C8C00740904 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229D34AF23A67C8C00740904 /* LoginViewController.m */; };
-		229D34B223A67C8C00740904 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229D34B023A67C8C00740904 /* LoginViewController.xib */; };
+		C2B94C2D1ECD2D9F9D824007 /* Pods_saoriChef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CCB0C2D3E92DEA4EBF2AA0 /* Pods_saoriChef.framework */; };
+		EE2175EC23B756FE0097CDB7 /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2175EB23B756FE0097CDB7 /* MainModel.swift */; };
+		EEB2798B23B633260048933B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2798A23B633260048933B /* AppDelegate.swift */; };
+		EEB2798D23B633260048933B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB2798C23B633260048933B /* SceneDelegate.swift */; };
+		EEB2799223B633260048933B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB2799023B633260048933B /* Main.storyboard */; };
+		EEB2799423B6332C0048933B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB2799323B6332C0048933B /* Assets.xcassets */; };
+		EEB279A923B635DD0048933B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB279A823B635DD0048933B /* LoginViewController.swift */; };
+		EEB279AC23B635FF0048933B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB279AB23B635FF0048933B /* LoginView.swift */; };
+		EEB279AE23B6360D0048933B /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB279AD23B6360D0048933B /* LoginView.xib */; };
+		EEB279B423B643F20048933B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB279B323B643F20048933B /* MainViewController.swift */; };
+		EEB279B723B6441A0048933B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB279B623B6441A0048933B /* MainView.swift */; };
+		EEB279B923B644B60048933B /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB279B823B644B60048933B /* MainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2202C72223B660F9007EBDDB /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
-		2202C72323B660F9007EBDDB /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
-		2202C72523B66131007EBDDB /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
-		2202C72723B6645B007EBDDB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		2202C72823B6645B007EBDDB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		2202C72E23B89C0C007EBDDB /* RecipeSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeSearchView.h; sourceTree = "<group>"; };
-		2202C72F23B89C0C007EBDDB /* RecipeSearchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeSearchView.m; sourceTree = "<group>"; };
-		2202C73123B89C33007EBDDB /* RecipeSearchView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeSearchView.xib; sourceTree = "<group>"; };
-		2202C73323B89CC7007EBDDB /* RecipeSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecipeSearchViewController.h; sourceTree = "<group>"; };
-		2202C73423B89CC7007EBDDB /* RecipeSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecipeSearchViewController.m; sourceTree = "<group>"; };
-		229D348E23A67BC500740904 /* SaoriChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SaoriChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		229D349123A67BC500740904 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		229D349223A67BC500740904 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		229D349423A67BC500740904 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		229D349523A67BC500740904 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		229D349723A67BC500740904 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		229D349823A67BC500740904 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		229D349B23A67BC500740904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		229D349D23A67BCD00740904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		229D34A023A67BCD00740904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		229D34A223A67BCD00740904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		229D34A323A67BCD00740904 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		229D34AE23A67C8C00740904 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		229D34AF23A67C8C00740904 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		229D34B023A67C8C00740904 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8DCE627B101CEB6C57112781 /* Pods-saoriChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saoriChef.debug.xcconfig"; path = "Target Support Files/Pods-saoriChef/Pods-saoriChef.debug.xcconfig"; sourceTree = "<group>"; };
+		B3E4476B3CF0B3706E65D46C /* Pods-saoriChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-saoriChef.release.xcconfig"; path = "Target Support Files/Pods-saoriChef/Pods-saoriChef.release.xcconfig"; sourceTree = "<group>"; };
+		C4CCB0C2D3E92DEA4EBF2AA0 /* Pods_saoriChef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_saoriChef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2175EB23B756FE0097CDB7 /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		EEB2798723B633260048933B /* saoriChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saoriChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB2798A23B633260048933B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEB2798C23B633260048933B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEB2799123B633260048933B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB2799323B6332C0048933B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB2799823B6332C0048933B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB279A823B635DD0048933B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EEB279AB23B635FF0048933B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EEB279AD23B6360D0048933B /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		EEB279B323B643F20048933B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EEB279B623B6441A0048933B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EEB279B823B644B60048933B /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		229D348B23A67BC500740904 /* Frameworks */ = {
+		EEB2798423B633260048933B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2B94C2D1ECD2D9F9D824007 /* Pods_saoriChef.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2202C71E23B66046007EBDDB /* Main */ = {
+		614378BE91DCBD0A72A3CFD3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2202C72A23B89B48007EBDDB /* Popup */,
-				2202C72123B66081007EBDDB /* Model */,
-				2202C72023B6606D007EBDDB /* View */,
-				2202C71F23B66052007EBDDB /* Controller */,
+				C4CCB0C2D3E92DEA4EBF2AA0 /* Pods_saoriChef.framework */,
 			);
-			path = Main;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2202C71F23B66052007EBDDB /* Controller */ = {
+		8028F82A0DAD1399D8F260B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2202C72723B6645B007EBDDB /* MainViewController.h */,
-				2202C72823B6645B007EBDDB /* MainViewController.m */,
+				8DCE627B101CEB6C57112781 /* Pods-saoriChef.debug.xcconfig */,
+				B3E4476B3CF0B3706E65D46C /* Pods-saoriChef.release.xcconfig */,
 			);
-			path = Controller;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		2202C72023B6606D007EBDDB /* View */ = {
+		EEB2797E23B633260048933B = {
 			isa = PBXGroup;
 			children = (
-				2202C72223B660F9007EBDDB /* MainView.h */,
-				2202C72323B660F9007EBDDB /* MainView.m */,
-				2202C72523B66131007EBDDB /* MainView.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2202C72123B66081007EBDDB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2202C72A23B89B48007EBDDB /* Popup */ = {
-			isa = PBXGroup;
-			children = (
-				2202C72B23B89B60007EBDDB /* Model */,
-				2202C72C23B89B69007EBDDB /* View */,
-				2202C72D23B89B73007EBDDB /* Controller */,
-			);
-			path = Popup;
-			sourceTree = "<group>";
-		};
-		2202C72B23B89B60007EBDDB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		2202C72C23B89B69007EBDDB /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2202C72E23B89C0C007EBDDB /* RecipeSearchView.h */,
-				2202C72F23B89C0C007EBDDB /* RecipeSearchView.m */,
-				2202C73123B89C33007EBDDB /* RecipeSearchView.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2202C72D23B89B73007EBDDB /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				2202C73323B89CC7007EBDDB /* RecipeSearchViewController.h */,
-				2202C73423B89CC7007EBDDB /* RecipeSearchViewController.m */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		229D348523A67BC500740904 = {
-			isa = PBXGroup;
-			children = (
-				229D349023A67BC500740904 /* SaoriChef */,
-				229D348F23A67BC500740904 /* Products */,
+				EEB2798923B633260048933B /* saoriChef */,
+				EEB2798823B633260048933B /* Products */,
+				8028F82A0DAD1399D8F260B6 /* Pods */,
+				614378BE91DCBD0A72A3CFD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		229D348F23A67BC500740904 /* Products */ = {
+		EEB2798823B633260048933B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				229D348E23A67BC500740904 /* SaoriChef.app */,
+				EEB2798723B633260048933B /* saoriChef.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		229D349023A67BC500740904 /* SaoriChef */ = {
+		EEB2798923B633260048933B /* saoriChef */ = {
 			isa = PBXGroup;
 			children = (
-				229D34AC23A67C1D00740904 /* Common */,
-				229D34AB23A67C0500740904 /* Resource */,
-				229D34AA23A67BEC00740904 /* Class */,
-				229D349123A67BC500740904 /* AppDelegate.h */,
-				229D349223A67BC500740904 /* AppDelegate.m */,
-				229D349423A67BC500740904 /* SceneDelegate.h */,
-				229D349523A67BC500740904 /* SceneDelegate.m */,
-				229D349723A67BC500740904 /* ViewController.h */,
-				229D349823A67BC500740904 /* ViewController.m */,
-				229D349A23A67BC500740904 /* Main.storyboard */,
-				229D349D23A67BCD00740904 /* Assets.xcassets */,
-				229D349F23A67BCD00740904 /* LaunchScreen.storyboard */,
-				229D34A223A67BCD00740904 /* Info.plist */,
-				229D34A323A67BCD00740904 /* main.m */,
+				EEB279AF23B637430048933B /* Resource */,
+				EEB2799F23B635430048933B /* Entity */,
+				EEB2799E23B635330048933B /* Class */,
+				EEB2798A23B633260048933B /* AppDelegate.swift */,
+				EEB2798C23B633260048933B /* SceneDelegate.swift */,
+				EEB2799023B633260048933B /* Main.storyboard */,
+				EEB2799323B6332C0048933B /* Assets.xcassets */,
+				EEB2799823B6332C0048933B /* Info.plist */,
 			);
-			path = SaoriChef;
+			path = saoriChef;
 			sourceTree = "<group>";
 		};
-		229D34AA23A67BEC00740904 /* Class */ = {
+		EEB2799E23B635330048933B /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				2202C71E23B66046007EBDDB /* Main */,
-				229D34AD23A67C5000740904 /* Login */,
+				EEB279A123B6356E0048933B /* Main */,
+				EEB279A023B635580048933B /* Login */,
 			);
 			path = Class;
 			sourceTree = "<group>";
 		};
-		229D34AB23A67C0500740904 /* Resource */ = {
+		EEB2799F23B635430048933B /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EEB279A023B635580048933B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EEB279A723B635BE0048933B /* Model */,
+				EEB279A623B635B80048933B /* View */,
+				EEB279A523B635AD0048933B /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EEB279A123B6356E0048933B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EEB279B223B643AC0048933B /* Controller */,
+				EEB279B023B6439B0048933B /* Model */,
+				EEB279B123B643A50048933B /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EEB279A523B635AD0048933B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEB279A823B635DD0048933B /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEB279A623B635B80048933B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEB279AB23B635FF0048933B /* LoginView.swift */,
+				EEB279AD23B6360D0048933B /* LoginView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EEB279A723B635BE0048933B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EEB279AF23B637430048933B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		229D34AC23A67C1D00740904 /* Common */ = {
+		EEB279B023B6439B0048933B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		229D34AD23A67C5000740904 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				22DD034E23B64D5C00D99C5C /* Model */,
-				22DD034F23B64D9500D99C5C /* View */,
-				22DD035023B64DA200D99C5C /* Controller */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		22DD034E23B64D5C00D99C5C /* Model */ = {
-			isa = PBXGroup;
-			children = (
+				EE2175EB23B756FE0097CDB7 /* MainModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		22DD034F23B64D9500D99C5C /* View */ = {
+		EEB279B123B643A50048933B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				229D34B023A67C8C00740904 /* LoginViewController.xib */,
+				EEB279B623B6441A0048933B /* MainView.swift */,
+				EEB279B823B644B60048933B /* MainView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		22DD035023B64DA200D99C5C /* Controller */ = {
+		EEB279B223B643AC0048933B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				229D34AE23A67C8C00740904 /* LoginViewController.h */,
-				229D34AF23A67C8C00740904 /* LoginViewController.m */,
+				EEB279B323B643F20048933B /* MainViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -233,38 +197,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		229D348D23A67BC500740904 /* SaoriChef */ = {
+		EEB2798623B633260048933B /* saoriChef */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 229D34A723A67BCD00740904 /* Build configuration list for PBXNativeTarget "SaoriChef" */;
+			buildConfigurationList = EEB2799B23B6332C0048933B /* Build configuration list for PBXNativeTarget "saoriChef" */;
 			buildPhases = (
-				229D348A23A67BC500740904 /* Sources */,
-				229D348B23A67BC500740904 /* Frameworks */,
-				229D348C23A67BC500740904 /* Resources */,
+				5D5C15EEAAD7A22A2CA01752 /* [CP] Check Pods Manifest.lock */,
+				EEB2798323B633260048933B /* Sources */,
+				EEB2798423B633260048933B /* Frameworks */,
+				EEB2798523B633260048933B /* Resources */,
+				4981CFF3886A084961838E52 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SaoriChef;
-			productName = SaoriChef;
-			productReference = 229D348E23A67BC500740904 /* SaoriChef.app */;
+			name = saoriChef;
+			productName = Kakeibo;
+			productReference = EEB2798723B633260048933B /* saoriChef.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		229D348623A67BC500740904 /* Project object */ = {
+		EEB2797F23B633260048933B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "やまぐち　さおり";
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "長沼 真宏";
 				TargetAttributes = {
-					229D348D23A67BC500740904 = {
-						CreatedOnToolsVersion = 11.1;
+					EEB2798623B633260048933B = {
+						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 229D348923A67BC500740904 /* Build configuration list for PBXProject "SaoriChef" */;
+			buildConfigurationList = EEB2798223B633260048933B /* Build configuration list for PBXProject "saoriChef" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,72 +239,102 @@
 				en,
 				Base,
 			);
-			mainGroup = 229D348523A67BC500740904;
-			productRefGroup = 229D348F23A67BC500740904 /* Products */;
+			mainGroup = EEB2797E23B633260048933B;
+			productRefGroup = EEB2798823B633260048933B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				229D348D23A67BC500740904 /* SaoriChef */,
+				EEB2798623B633260048933B /* saoriChef */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		229D348C23A67BC500740904 /* Resources */ = {
+		EEB2798523B633260048933B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229D34B223A67C8C00740904 /* LoginViewController.xib in Resources */,
-				229D34A123A67BCD00740904 /* LaunchScreen.storyboard in Resources */,
-				229D349E23A67BCD00740904 /* Assets.xcassets in Resources */,
-				229D349C23A67BC500740904 /* Main.storyboard in Resources */,
-				2202C73223B89C33007EBDDB /* RecipeSearchView.xib in Resources */,
-				2202C72623B66131007EBDDB /* MainView.xib in Resources */,
+				EEB2799423B6332C0048933B /* Assets.xcassets in Resources */,
+				EEB279B923B644B60048933B /* MainView.xib in Resources */,
+				EEB279AE23B6360D0048933B /* LoginView.xib in Resources */,
+				EEB2799223B633260048933B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4981CFF3886A084961838E52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saoriChef/Pods-saoriChef-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-saoriChef/Pods-saoriChef-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-saoriChef/Pods-saoriChef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5C15EEAAD7A22A2CA01752 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-saoriChef-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		229D348A23A67BC500740904 /* Sources */ = {
+		EEB2798323B633260048933B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				229D349923A67BC500740904 /* ViewController.m in Sources */,
-				229D349323A67BC500740904 /* AppDelegate.m in Sources */,
-				229D34A423A67BCD00740904 /* main.m in Sources */,
-				229D349623A67BC500740904 /* SceneDelegate.m in Sources */,
-				2202C73523B89CC7007EBDDB /* RecipeSearchViewController.m in Sources */,
-				2202C72923B6645B007EBDDB /* MainViewController.m in Sources */,
-				229D34B123A67C8C00740904 /* LoginViewController.m in Sources */,
-				2202C73023B89C0C007EBDDB /* RecipeSearchView.m in Sources */,
-				2202C72423B660F9007EBDDB /* MainView.m in Sources */,
+				EE2175EC23B756FE0097CDB7 /* MainModel.swift in Sources */,
+				EEB279A923B635DD0048933B /* LoginViewController.swift in Sources */,
+				EEB279B723B6441A0048933B /* MainView.swift in Sources */,
+				EEB2798B23B633260048933B /* AppDelegate.swift in Sources */,
+				EEB279AC23B635FF0048933B /* LoginView.swift in Sources */,
+				EEB2798D23B633260048933B /* SceneDelegate.swift in Sources */,
+				EEB279B423B643F20048933B /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		229D349A23A67BC500740904 /* Main.storyboard */ = {
+		EEB2799023B633260048933B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				229D349B23A67BC500740904 /* Base */,
+				EEB2799123B633260048933B /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		229D349F23A67BCD00740904 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				229D34A023A67BCD00740904 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		229D34A523A67BCD00740904 /* Debug */ = {
+		EEB2799923B6332C0048933B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -387,15 +384,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		229D34A623A67BCD00740904 /* Release */ = {
+		EEB2799A23B6332C0048933B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -439,44 +438,58 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		229D34A823A67BCD00740904 /* Debug */ = {
+		EEB2799C23B6332C0048933B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCE627B101CEB6C57112781 /* Pods-saoriChef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NHSBS7UY6G;
-				INFOPLIST_FILE = SaoriChef/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/saoriChef/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = saoriCompany.SaoriChef;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ym.Saorichef;
+				PRODUCT_NAME = saoriChef;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		229D34A923A67BCD00740904 /* Release */ = {
+		EEB2799D23B6332C0048933B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3E4476B3CF0B3706E65D46C /* Pods-saoriChef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NHSBS7UY6G;
-				INFOPLIST_FILE = SaoriChef/Info.plist;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 0.0.1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/saoriChef/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = saoriCompany.SaoriChef;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = ym.Saorichef;
+				PRODUCT_NAME = saoriChef;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -484,25 +497,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		229D348923A67BC500740904 /* Build configuration list for PBXProject "SaoriChef" */ = {
+		EEB2798223B633260048933B /* Build configuration list for PBXProject "saoriChef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				229D34A523A67BCD00740904 /* Debug */,
-				229D34A623A67BCD00740904 /* Release */,
+				EEB2799923B6332C0048933B /* Debug */,
+				EEB2799A23B6332C0048933B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		229D34A723A67BCD00740904 /* Build configuration list for PBXNativeTarget "SaoriChef" */ = {
+		EEB2799B23B6332C0048933B /* Build configuration list for PBXNativeTarget "saoriChef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				229D34A823A67BCD00740904 /* Debug */,
-				229D34A923A67BCD00740904 /* Release */,
+				EEB2799C23B6332C0048933B /* Debug */,
+				EEB2799D23B6332C0048933B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 229D348623A67BC500740904 /* Project object */;
+	rootObject = EEB2797F23B633260048933B /* Project object */;
 }

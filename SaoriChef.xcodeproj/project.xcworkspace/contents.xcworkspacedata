@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SaoriChef.xcodeproj">
+      location = "self:/Users/naganuma/SaoriChef/saoriChef.xcodeproj">
    </FileRef>
 </Workspace>
